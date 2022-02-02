@@ -1,0 +1,43 @@
+.volume__slider {
+  input[type='range'] {
+    &::-webkit-slider-thumb {
+      width: 0px;
+      -webkit-appearance: none;
+      appearance: none;
+      overflow: visible;
+      height: 0px;
+      cursor: pointer;
+      background: rgb(6, 60, 207);
+      border-radius: 100%;
+    }
+
+    &::-moz-range-thumb {
+      width: 12px;
+      -webkit-appearance: none;
+      appearance: none;
+      overflow: visible;
+      height: 12px;
+      cursor: pointer;
+      background: rgb(6, 60, 207);
+      border-radius: 100%;
+    }
+
+    &::-ms-thumb {
+      width: 12px;
+      -webkit-appearance: none;
+      appearance: none;
+      overflow: visible;
+      height: 12px;
+      cursor: pointer;
+      background: rgb(6, 60, 207);
+      border-radius: 100%;
+    }
+  }
+
+  &:hover {
+    input[type='range']::-webkit-slider-thumb {
+      width: 12px;
+      height: 12px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.top__artists__carousel {
+  scroll-behavior: smooth;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
+}

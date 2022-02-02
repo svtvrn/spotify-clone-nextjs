@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './fonts';
+
+body {
+  background: rgb(255, 238, 222);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 238, 222, 1) 0%,
+    rgba(251, 245, 247, 1) 30%,
+    rgba(249, 243, 247, 1) 70%,
+    rgba(230, 213, 251, 1) 100%
+  );
+  font-family: 'Typo Grotesk Regular', 'Helvetica';
+}
